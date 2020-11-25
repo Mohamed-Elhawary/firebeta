@@ -82,7 +82,7 @@ Just Modern Browser like "Chrome" and a Code Editor for Deployment and Develop.
 * jQuery Sliders Plugins 
 * Working with Contact Form
 * Google Fonts integration
-* Jquery Powered v1.12.4
+* jQuery Powered v1.12.4
 * Smooth Page Scrolling with Nice Scroll Plugin
 * Compatible with IE8+
 * Semantic HTML5 Tags
@@ -93,7 +93,7 @@ Just Modern Browser like "Chrome" and a Code Editor for Deployment and Develop.
 * Well Commented at each Part in the Code
 * 3 Different Themes Colors
 * Dark Mode is Available
-* Based on Local Storage to save the User Selections.
+* Based on Local Storage to save the User Selections
 * Provided with Favicon  
 
 ## Themes
