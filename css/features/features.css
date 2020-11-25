@@ -1,0 +1,72 @@
+/*Start Chat Box and To Top Button*/
+.chat-us .chat-icon, .top-button .button-icon {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+}
+
+.chat-us .chat-icon {bottom: 85px}
+
+.chat-us .message-form {
+    position: fixed;
+    bottom: 120px;
+    right: 65px;
+    z-index: 999;
+    width: 280px;
+    height: 350px;
+    overflow: hidden;
+    display: none
+}
+
+.chat-us .form-body textarea {resize: none}
+
+.top-button {display: none}
+/*End Chat Box and To Top Button*/
+
+/*Start Tools Bar*/
+.tools-bar {
+    position: fixed;
+    top: 70px;
+    left: -155px;
+    width: 155px;
+    height: 185px;
+    background-color: rgb(0, 0, 0, .75);
+    z-index: 999;
+    border-radius: 0 20px 20px 0
+}
+
+.tools-bar .themes span {
+    padding: 5px; 
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 2px;
+    margin-right: 5px
+}
+
+.tools-bar .modes span {margin-right: 15px}
+
+.tools-bar .gear {
+    position: absolute;
+    right: -40px;
+    top: 70px;
+    background-color: rgb(0, 0, 0, .75);
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-left: 0!important;
+    border-radius: 0 8px 8px 0
+}
+
+.tools-bar .gear .fa-cog  {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    animation: rotate 4s linear infinite
+} 
+
+@keyframes rotate {
+    100%{transform: rotate(360deg)}
+}
+/*End Tools Bar*/

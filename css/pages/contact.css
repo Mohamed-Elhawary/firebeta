@@ -1,0 +1,30 @@
+/*Start Header*/
+.header {background: url('../../images/contact/contact-header.jpg')!important; background-size: cover!important; background-position-x: 80%!important}
+
+.header .middle-content {z-index: 2}
+/*End Header*/
+
+/*Start Contact Part*/
+.contact .contact-form textarea {resize: none}
+/*End Contact Part*/
+
+/*Start Time Part*/
+.time {
+    background: url('../../images/contact/save-time.jpg');
+    background-size: cover;
+    background-position: 80%;
+    height: 350px
+}
+
+.time .middle-content {z-index: 2}
+/*End Time Part*/
+
+/*Start Global Part*/
+.global .map-img img {opacity: .4}
+
+.global .map-img img:hover {opacity: 1}
+/*End Global Part*/
+
+/*Start Info Part*/
+.info .info-box i {margin-right: 8px}
+/*End Info Part*/

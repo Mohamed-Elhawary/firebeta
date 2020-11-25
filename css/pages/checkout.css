@@ -1,0 +1,25 @@
+/*Start Steps Part*/
+.steps .login-method .or-span {display: inline-block; margin-top: 15%}
+
+.steps .login-method .social-box {margin-top: 15%}
+
+.steps .login-method .social-box:hover {transform: scale(1.1)} 
+
+.steps .purchase-method .credit label {margin-left: 8px}
+
+.steps .purchase-method .credit img {float: right; margin-top: 5px}
+
+.steps .purchase-order {display: none}
+
+.steps .purchase-order .purchase-details span.free {padding: 0 3px; border-radius: 5px; animation: fade 1.5s infinite}
+
+@keyframes fade {
+    0% {opacity: .8}
+    50% {opacity: 1} 
+    100% {opacity: .8}
+}
+
+.steps .purchase-order .purchase-details .coupon-form {margin-top: 10px; display: none}
+
+.steps .purchase-order .purchase-features span {margin-left: 8px; margin-top: 5px; display: inline-block}
+/*End Steps Part*/

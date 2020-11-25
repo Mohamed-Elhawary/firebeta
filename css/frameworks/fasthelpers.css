@@ -1,0 +1,129 @@
+/*
+    FastHelpers Framework v.1.0 (FHF) - A CSS3 Framework
+    [https://github.com/Mohamed-Elhawary/fasthelpers-framwork-fhf]
+    -------------------------------------------------------------------------------------------------------------------------------------------
+    * Copyright 2020, HaWaRy, Released under the MIT license - https://github.com/Mohamed-Elhawary/fasthelpers-framwork-fhf/blob/master/LICENSE
+    --------------------------------------------------------------------------------------------------------------------------------------------
+    >> This is my Special Framework built by me from zero, I have to use it in my Projects, let's take a fast look at its important Features and information:
+    ---------------------------------------------------------------------------------------------------------------------------------------------------------
+    * Framework Name: FastHelpers Framework (FHF)
+    * Based Language: CSS
+    * Version: v.1.0
+    * Authoor: __HaWaRy__
+        - Email:    mohamed.k.elhawary@gmail.com
+        - Linkedin: https://www.linkedin.com/in/mohamed-elhawary14
+        - Github:   https://github.com/Mohamed-Elhawary
+        - codePen:  https://codepen.io/Mohamed-ElHawary
+
+    * FastHelpers Features:
+        - More Re-usable and Maintainability.
+        - Easy to use and understand the Classes Components.
+        - Highly Flexibility.
+        - Familiar with the use of Bootstrap Framework and can work with it Perfectly.
+        - Very Important Feature: while it has Important Helper Classes that are grouped together in one Collection called [FastHelpers Themes Classes (FHTC)], these Helpers Themes Classes will help you to make Different and Multiple THEMES for your Website in no Time, Plus they have in the same collection another Helpers Themes Classes Special for DARK MODE Theme,
+            and by just Manipulating with Colors & Background-colors only in this Helpers Themes Classes you can make Multiple Themes. >> For More Details for this Feature and how to use it Please visit the Repositry of this Framework in my Github Account at this Link: >> https://github.com/Mohamed-Elhawary/fasthelpers-framwork-fhf
+        - Finally, Depending on the Name of the Framework, it has Speed, Fast and Flexible Helper Classes.  
+
+    >> For more Details and how to use this Framework, Please feel Free to visit the Repositry of this Framework in my Github Account at this Link: >> https://github.com/Mohamed-Elhawary/fasthelpers-framwork-fhf
+*/
+.upper {text-transform: uppercase}
+
+.underline {text-decoration: underline}
+
+.par {margin: 15px 0; font-size: 18px; font-weight: bold; color: #727586; line-height: 1.6}
+
+.shadow {box-shadow: 0 0 16px rgba(0, 0, 0, .1)}
+
+.bold {font-weight: bold}
+
+.border {border: 1px solid #ddd}
+
+.list {background: transparent; border: none; font-size: 16px}
+
+.padding {padding: 10px}
+
+.radius {border-radius: 15px}
+
+.margin-bt {margin-bottom: 15px}
+
+.relative {position: relative}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.6);
+    z-index: 1
+}
+
+.transition,
+.transition:before,
+.transition:hover::before {
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear
+}
+
+.before::before {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: auto;
+    right: 0px;
+    position: absolute;
+    border-radius: 15px;
+    content: '';
+    opacity: 0
+}
+
+.before:hover::before {opacity: 1}
+
+.cursor {cursor: pointer}
+
+.line-through {position: relative; z-index: 5}
+
+.line-through span {
+    width: 250px;
+    height: 12px;
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 20px;
+    opacity: .4;
+    z-index: -1; 
+}
+
+.line-below::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 66px;
+    height: 2px;
+    background: #ddd
+}
+
+.section-padd {padding: 40px 0}
+
+.high-height {height: 400px}
+
+.middle-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.grey {color: #ddd}
+
+.dark-grey {color: #222}
+
+.white-color {color: #fff}
+
+.white-bg {background: #fff}
+
+.white-color-hvr:hover {color: #fff}
+
+.white-bg-hvr:hover {background: #fff}

@@ -1,0 +1,14 @@
+.error h2 {
+	font-size: 100px;
+    letter-spacing: 4px;
+    -webkit-text-fill-color: #fff; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px
+}
+
+.error .msg .msg-img img {animation: fade 1.5s infinite}
+
+@keyframes fade {
+    0% {opacity: .2}
+    50% {opacity: 1} 
+    100% {opacity: .2}
+}

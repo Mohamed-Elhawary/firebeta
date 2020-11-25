@@ -1,0 +1,22 @@
+/*Start Team Part*/
+.team {padding-bottom: 0!important}
+
+.team .thumbnail {border-radius: 50% 50% 15px 15px; margin-bottom: 40px}
+
+.team .thumbnail img {width: 80%}
+
+.team .thumbnail .caption span {display: block}
+
+.team .thumbnail .social ul li {display: inline-block}
+
+.team .thumbnail .social ul li i {
+    padding: 5px;
+    margin-right: 8px;
+    transition-property: background-color;
+    -webkit-transition-property: background-color;
+    -moz-transition-property: background-color;
+    -o-transition-property: background-color
+}
+
+.team .thumbnail .social ul li i.fa-facebook-f {padding: 5px 9px}
+/*End Team Part*/

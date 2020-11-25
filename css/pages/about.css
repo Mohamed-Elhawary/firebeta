@@ -1,0 +1,21 @@
+
+/*Start Header*/
+.header {
+    background: url("../../images/about/company.jpg")!important; background-size: cover}
+/* End Header*/
+
+/* Start Description Part*/
+.description .part.business h2 span {width: 325px}
+
+.description .part.statics .row {margin-right: initial; margin-left: initial}
+
+.description .part.history h2 span {width: 265px}
+
+.description .part.history .img img {
+    width: 50%; 
+    margin: auto; 
+    position: absolute;
+    top: 30px;
+    left: 100px 
+}
+/* End Description Part*/

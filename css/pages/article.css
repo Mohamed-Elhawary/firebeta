@@ -1,0 +1,112 @@
+body {background: #fafafa}
+
+/*Start Re-editing Some Settings for customizing the Responsive with the AOS Library (fade-right & fade-left effects)*/
+body {overflow-x: hidden}
+.container {overflow-x: hidden}
+.navbar .container {overflow-x: initial}
+/*End Re-editing Some Settings for customizing the Responsive with the AOS Library (fade-right & fade-left effects)*/
+
+/*Start Article Part*/
+div.article {padding: 40px 0}
+
+.article h5,
+.comments h5 {text-align: left}
+
+.article h5::before {width: 115px}
+
+.article .main-blog .thumbnail {background: transparent; border: none}
+
+.article .main-blog .thumbnail h2 {margin-top: 0}
+
+.article .main-blog .thumbnail img {width: 70%}
+
+.article .main-blog .thumbnail .info {
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    bottom: 40px;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between
+}
+
+.article .main-blog .thumbnail .info  span {width: 100%; height: 100%}
+
+.article .main-blog .thumbnail .info  span:not(:last-child) {border-right: .5px solid #ddd}
+
+.article .main-blog .thumbnail .info  span i {margin-right: 8px}
+
+.article .main-blog .content .img {padding: 5px; margin-top: 25px}
+
+.article .main-blog .content .img img {width: 100%}
+
+.article .related-blogs .thumbnail-box .thumbnail {border: none; margin-top: 10px; margin-bottom: 15px}
+
+.article .related-blogs .thumbnail-box .thumbnail span.label {
+    position: relative;
+    top: 12px;
+    left: 4px;
+    z-index: 1;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px
+}
+
+.article .related-blogs .thumbnail-box .thumbnail .blog-img {width: 85%; margin: auto}
+
+.article .related-blogs .thumbnail-box .thumbnail .caption :not(:first-child) {display: none}
+
+.article .related-blogs .thumbnail-box .thumbnail .caption h3.blog-head {text-align: center}
+/*End Article Part*/
+
+/*Start Share Part*/
+.share .share-box {margin-top: 15px}
+
+.share .share-box ul,
+.share .share-box h5 {top: 10px}
+
+.share .share-box ul li {width: 40px; display: inline-block; margin-left: 25px}
+/*End Share Part*/
+
+/*Start Comments Part*/
+.comments h5::before {width: 95px}
+
+.comments .comments-box .comment .comment-img {height: 140px; width: 140px; float: right}
+
+.comments .comments-box .comment .comment-img img {
+    border: 3px solid #ddd; 
+    width: 100%; 
+    height: 100%;
+    float: right;
+    margin-top: 8px
+}
+
+.comments .comments-box .comment.replay .comment-img img {width: 85%; height: 85%} 
+
+.comments .comments-box .comment .comment-body::before,
+.comments .comments-box .comment .comment-body::after {content: ''; position: absolute}
+
+.comments .comments-box .comment .comment-body::before {
+    border: 1px solid transparent;
+    border-color: transparent transparent;
+    border-width: 13px 11px 13px 0;
+    top: 35%;
+    left: -13px
+}
+
+.comments .comments-box .comment .comment-body::after{
+    border: 1px solid transparent;
+    border-color: transparent #fafafa;
+    border-width: 13px 12px 13px 0;
+    top: 35%;
+    left: -12px
+}
+
+.comments .comments-box .comment .comment-body .info .replay {float: right; margin-right: 15px}
+
+.comments .comments-box .comment .comment-body .info .replay i {margin-right: 5px}
+
+.comments .comment-form textarea {height: 150px; resize: none}
+/*End Comments Part*/

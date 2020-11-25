@@ -1,0 +1,5 @@
+.slick-slide {margin: 20px 20px; padding: 5px 5px 0px 5px}
+
+.slick-slide img {width: 100%; filter: grey; filter: grayscale(1); -webkit-filter: grayscale(1)}
+
+.slick-slide img:hover {filter: none; filter: grayscale(0); -webkit-filter: grayscale(0)}

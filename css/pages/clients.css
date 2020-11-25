@@ -1,0 +1,17 @@
+/*Start Clients Opinions Part*/
+.opinions h2 span {width: 280px}
+
+.opinions .opinion .thumbnail .client-info {height: 90px}
+
+.opinions .opinion .thumbnail .client-info img {width: 100px; height: 90px; bottom: 50px}
+
+.opinions .opinion .thumbnail .client-info h4 {bottom: 40px}
+/*End Clients Opinions Part*/
+
+/*Start Sponsors Part*/
+.sponsors h2 {font-size: 90px; font-style: italic; opacity: .7}
+
+.sponsors img {opacity: .4}
+
+.sponsors img:hover {opacity: 1}
+/*End Sponsors Part*/

@@ -1,0 +1,13 @@
+/*Start Re-editing Some Settings for customizing the Responsive with the AOS Library (fade-right & fade-left effects)*/
+body {overflow-x: hidden}
+.container {overflow: hidden}
+.navbar .container {overflow: initial}
+/*End Re-editing Some Settings for customizing the Responsive with the AOS Library (fade-right & fade-left effects)*/
+
+/*Start Header*/
+.header {background: url('../../images/ssl/ssl-header.jpg')!important; background-size: cover!important}
+
+.header .overlay {background: rgba(0,0,0, .2)}
+
+.header .middle-content {z-index: 2}
+/*End Header*/

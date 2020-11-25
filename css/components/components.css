@@ -1,0 +1,44 @@
+/*Start Body*/
+body {font-family: 'Cairo', sans-serif; padding-top: 60px}
+/*End Body*/
+
+/*Start Breadcrumb*/
+.breadcrumb {margin-bottom: 0}
+
+.breadcrumb li {font-size: 18px}
+/*End Breadcrumb*/
+
+/*Start div.header*/
+div.header {background: url("../../svg/puple.svg")}
+/*End div.header*/
+
+/*Start Buttons*/
+button.btn {outline:none!important}
+/*End Buttons*/
+
+/*Start Footer*/
+footer.footer .top-footer {padding: 15px 0}
+
+footer.footer .top-footer .details {margin-top: 20px}
+
+footer.footer .top-footer .details .social li {display: inline-block}
+
+footer.footer .top-footer .details .social li i {
+    padding: 5px;
+    margin-right: 5px;
+    transition-property: background-color;
+    -webkit-transition-property: background-color;
+    -moz-transition-property: background-color;
+    -o-transition-property: background-color
+}
+
+footer.footer .top-footer .details .social li i.fa-facebook-f {padding: 5px 9px}
+
+footer.footer .top-footer .map a:hover {color: #ddd}
+
+footer.footer .bottom-footer {padding: 15px 0; box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, .1) inset}
+
+footer.footer .bottom-footer .copyrights span span.author {display: inline-block; padding: 2px 5px 5px; border-radius: 5px}
+
+footer.footer .bottom-footer .credits {text-align: right; margin-top: 20px}
+/*End Footer*/

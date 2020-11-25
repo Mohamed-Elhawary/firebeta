@@ -1,0 +1,338 @@
+/*Start Re-edit FastHelpers Classes*/
+@media (max-width: 767px) {
+    .list {font-size: 14px}
+    .par {font-size: 16px}
+    .middle-content {width: 90%}
+    .line-through {font-size: 26px}
+}
+/*End Re-edit FastHelpers Classes*/
+
+/*Start Re-edit Components*/
+/*Start Footer Component*/
+@media (max-width: 767px) {
+    .footer .bottom-footer .copyrights,
+    .footer .bottom-footer .credits {text-align: center!important}
+}
+
+@media (max-width: 991px) {
+    .footer .top-footer .details {text-align: center}
+    .footer .bottom-footer .copyrights p,
+    .footer .bottom-footer .copyrights span {font-size: 16px}
+}
+/*End Footer Component*/
+
+/*Start div.header Component*/
+@media (max-width: 767px) {
+    div.header h1 {font-size: 25px}
+}
+/*End div.header Component*/
+/*End Re-edit Components*/
+
+/*Start Re-edit Site Pages*/
+/*Start Home Page*/
+/*Start Domains Section*/
+@media (max-width: 375px) {
+    .domain .search-domain-input input::placeholder {font-size: 16px}
+}
+
+@media (max-width: 991px) {
+    .domain form, .domain .domains,
+    .domain .search-domain-btn input {width: 100%}
+}
+/*End Domains Section*/
+
+/*Start Features Section*/
+@media (max-width: 1400px) {
+    section.features {background: none!important}
+}
+/*End Features Section*/
+
+/*Start Offers Section*/
+@media (max-width: 767px) {
+    .offers .offers-slider .offer {width: 95%; margin-left: 14px}
+    .offer h4 {font-size: 16px}
+    .offers .counter li {font-size: 20px}
+    .offers .counter li h5 {font-size: 16px}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .offers .counter li {font-size: 25px}
+    .offers .counter li h5 {font-size: 18px}
+}
+/*End Offers Section*/
+
+/*Start Plans Section*/
+@media (max-width: 479px) {
+    .pricingTable .pricing-content ul li {font-size:15px}
+    .pricingTable .pricing-content ul li:before {left:10px}
+}
+
+@media (max-width: 990px) {
+    .pricingTable {margin-bottom:30px}
+}
+/*End Plans Section*/
+
+/*Start Customer Service Section*/
+@media (max-width: 767px) {
+    .customer-service h3 {font-size: 22px}
+}
+/*End Customer Service Section*/
+
+/*Start Services Section*/
+@media (max-width: 767px) {
+    .service .service-img {padding-top: 15px; padding-bottom: 15px}
+    .service .service-img img {width: 50%}
+}
+/*End Services Section*/
+
+/*Start Secure Section*/
+@media (max-width: 354px) {
+    .secure h3 {font-size: 22px}
+    .secure .props .media .media-body h4 {font-size: 18px}
+}
+
+@media (max-width: 535px) {.secure .props {margin-left: 0px}}
+/*End Secure Section*/
+/*End Home Page*/
+
+/*Start Blogs Page*/
+/*Start Sidebar Part*/
+@media (max-width: 991px) {
+    .blogs .side-bar {margin-top: 40px}
+}
+/*End Sidebar Part*/
+/*End Blogs Page*/
+
+/*Start Article Page*/
+/*Start Article Part*/
+@media (max-width: 419px) {
+    .article .main-blog .thumbnail .info {width: 93%; bottom: 0px}
+    .article .main-blog .thumbnail .info  span.comments,
+    .article .main-blog .thumbnail .info  span.views {display: none}
+}
+
+@media (min-width: 420px) and (max-width: 495px) {
+    .article .main-blog .thumbnail .info  span {font-size: 11px}
+}
+
+@media (max-width: 767px) {
+    .article .main-blog .thumbnail h2 {font-size: 22px}
+    .article .main-blog .thumbnail img {width: 100%}
+    .article .main-blog .thumbnail .info {width: 95%; bottom: 10px}
+    .article .main-blog .content .img {margin-top: 0px}
+    .article .main-blog .content .texts h4 {font-size: 18px}
+    .article .related-blogs .thumbnail-box .thumbnail .caption h3 {font-size: 16px}
+}
+/*End Article Part*/
+
+/*Start Share Part*/
+@media (max-width: 767px) {
+    .share .share-box h5 {top: 0px}
+    .share .share-box ul li {width: 25px; margin-left: 10px}
+}
+/*End Share Part*/
+
+/*Start Comments Part*/
+@media (max-width: 419px) {
+    .comments .comments-box .comment .comment-img {height: 80px; width: 80px}
+    .comments .comments-box .comment .comment-img img {margin-top: 32px}
+    .comments .comments-box .comment .comment-body .info h4 {margin-top: 10px; margin-bottom: 10px; font-size: 16px}
+    .comments .comments-box .comment .comment-body .par {margin: 0 0 10px; line-height: 1.4}
+}
+
+@media (min-width: 420px) and (max-width: 991px) {
+    .comments .comments-box .comment .comment-img {height: 100px; width: 100px; float: right}
+    .comments .comments-box .comment .comment-img img {margin-top: 32px; float: right}
+    .comments .comments-box .comment .comment-body .info h4 {margin-top: 10px; margin-bottom: 10px; font-size: 18px}
+    .comments .comments-box .comment .comment-body .par {margin: 0 0 10px; line-height: 1.4}
+}
+/*End Comments Part*/
+/*End Article Page*/
+
+/*Start Prices Page*/
+/*Start Prices Part*/
+@media (max-width: 384px) {
+    .prices .products-cells {height: 120px; bottom: 60px}
+    .prices .products-cells .cells {flex-direction: column}
+    .prices .products-cells .cells .cell {line-height: 38px}
+    .prices .products-cells .cells .cell a {font-size: 14px}
+    .prices .products {bottom: 30px}
+    .prices .plans-table .table-content .plan-features .feature,
+    .prices .plans-table .table-content .plan-option {font-size: 13px}  
+}
+
+@media (min-width: 385px) and (max-width: 435px) {
+    .prices .products-cells .cells .cell a {font-size: 14px}
+}
+
+@media (min-width: 385px) and (max-width: 465px) {
+    .prices .plans-table .table-content .plan-features .feature,
+    .prices .plans-table .table-content .plan-option {font-size: 14px}
+}
+
+@media (min-width:466px) and (max-width: 521px) {
+    .prices .plans-table .table-content .plan-features .feature,
+    .prices .plans-table .table-content .plan-option {font-size: 16px}
+}
+
+@media (max-width: 767px) {
+    .prices .products .product .introduction h3 {font-size: 22px}
+    .prices .plans-table .table-header .features-head h4,
+    .prices .plans-table .table-header .plan-name h5  {font-size: 16px}
+    .prices .plans-table .table-header .plan-name span.controls i {font-size: 14px; top: 32px}
+    .prices .plans-table .table-header .plan-name span.price {padding: 3px}  
+    .prices .plans-table .table-content button.buy {padding: 8px; font-size: 16px}
+}
+
+@media (max-width: 991px) {
+    .prices .products-cells .cells {justify-content: space-evenly}
+}
+/*End Prices Part*/
+
+/*Start Addittional Information Part*/
+@media (max-width: 767px) {
+    .add-information h4 {font-size: 20px}
+}
+/*Start Addittional Information Part*/
+/*End Prices Page*/
+
+/*Start Domains Page*/
+/*Start Tabs and Contents Part*/
+@media(max-width: 300px) {
+    .tabs-and-contents .tabs .tab:nth-child(3) {margin-right: 0px}
+}
+
+@media(max-width: 420px) {
+    .tabs-and-contents .tabs .tab {
+        border-bottom-width: 1px;
+        width: 80px;
+        padding: 10px;
+        border-radius: 0px
+    }
+    .tabs-and-contents .tabs .tab:nth-child(3) {margin-right: 20px}
+}
+
+@media(max-width: 570px) {
+    .tabs-and-contents .tabs .tab {width: 60px; padding: 8px}
+}
+
+@media(max-width: 991px) {
+    .tabs-and-contents .contents .content .price h5 {
+        display: block;
+        width: 80px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+/*End Tabs and Contents Part*/
+
+/*Start Domain Checker & Domain Transfer Parts*/
+@media(max-width: 991px) {
+    .domain-checker input,
+    .domain-transfer input {width: 100%}
+}
+/*End Domain Checker & Domain Transfer Parts*/
+
+/*Start Domain AD1,2,3&4 Parts*/
+@media(max-width: 767px) {
+    .domain-ad1 h3, 
+    .domain-ad2 h3, 
+    .domain-ad3 h3, 
+    .domain-ad4 h4 {font-size: 22px}
+}
+/*End Domain AD1,2,3&4 Parts*/
+
+/*Start Tips, Register & Hosting Services Parts*/
+@media(max-width: 767px) {
+    .tips h2, .register h2, .hosting-services h2 {font-size: 26px}
+    .register h3 {font-size: 22px}
+    .hosting-services .thumbnail {width: 80%; margin: auto}
+}
+/*End Tips, Register & Hosting Services Parts*/
+/*End Domains Page*/
+
+/*Start About Us Page*/
+@media(max-width: 767px) {
+    .description .part.statics .count {margin-bottom: 50px}
+}
+
+@media(max-width: 990px) {
+    .description .part.history .img img {position: initial; margin-bottom: -40px}
+}
+
+@media(min-width: 991px) and (max-width: 1199px) {
+    .description .part.history .img img {top: 118px; width: 60%}
+}
+/*End About Us Page*/
+
+/*Start Team Page*/
+@media(max-width: 390px) {
+    .team .thumbnail {width: 90%; margin-left: auto; margin-right: auto}
+}
+
+@media(min-width: 391px) and (max-width: 535px) {
+    .team .thumbnail {width: 80%; margin-left: auto; margin-right: auto}
+}
+
+@media(min-width: 536px) and (max-width: 767px) {
+    .team .thumbnail {width: 60%; margin-left: auto; margin-right: auto}
+}
+/*End Team Page*/
+
+/*Start Clients Page*/
+@media(max-width: 767px) {
+    .sponsors h2 {font-size: 50px}
+}
+
+@media(min-width: 991px) {
+    .sponsors h2 {margin-top: 20%}
+}
+/*End Clients Page*/
+
+/*Start Contact Page*/
+@media(max-width: 991px) {
+    .contact .contact-form input {width: 100%}
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .info .info-box span {font-size: 16px}
+}
+/*End Contact Page*/
+
+/*Start CMS Page*/
+@media (max-width: 339px) {
+    .cms .cms-box .front {left: 32%}
+}
+
+@media (min-width: 340px) and (max-width: 464px) {
+    .cms .cms-box .front {left: 35%}
+} 
+
+@media (min-width: 465px) and (max-width: 534px) {
+    .cms .cms-box .front {top: 13%; left: 40%}
+}
+
+@media (min-width: 535px) and (max-width: 991px) {
+    .cms .cms-box .front {top: 8%; left: 42%}
+} 
+
+@media (max-width: 991px) {
+    .cms {margin: 0}
+    .started .started-box {margin-top: 30px; margin-bottom: 30px; text-align: center}
+    .started .started-img img {margin-top: initial; margin: auto}
+}
+/*End CMS Page*/
+
+/*Start SSL Page*/
+@media (max-width: 700px) {
+    .header.ssl-header .overlay {background: rgba(0,0,0, .6)}
+}
+/*End SSL Page*/
+
+/*Start Checkout Page*/
+@media (max-width: 991px) {
+    .steps .login-method .or-span,
+    .steps .login-method .social-box {margin-top: initial}
+}
+/*End Checkout Page
+/*End Re-edit Site Pages*/

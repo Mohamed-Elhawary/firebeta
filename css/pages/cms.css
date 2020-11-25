@@ -1,0 +1,65 @@
+/*Start Header*/
+.header .specs {position: absolute; bottom: 0; width: 100%}
+
+.header .specs .spec i {margin-right: 8px}
+/*End Header*/
+
+/*Start CMS Part*/
+.cms {perspective: 800px; margin: 100px 0}
+
+.cms .cms-box {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+}
+
+.cms .cms-box:hover {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg)
+}
+
+.cms .cms-box .front {
+    position: absolute;
+    left: 35%;
+    top: 25%
+}
+
+.cms .cms-box .front {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 2;
+    -moz-transform: rotateX(0deg); /*For Mozilla Firefox Browser Only "use it to show the effect"*/
+    transform: rotateX(0deg)
+} 
+
+.cms .cms-box .back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    z-index: 1
+}
+/*End CMS Part*/
+
+/*Start Started Part*/
+.started {background: #f5f5f5}
+
+.started .started-box {margin-top: 25%}
+
+.started .started-img img {margin-top: -120px}
+/*End Started Part*/

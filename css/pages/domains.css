@@ -1,0 +1,63 @@
+/*Start Re-editing Some Settings for customizing the Responsive with the AOS Library (fade-right & fade-left effects)*/
+body {overflow-x: hidden}
+.container {overflow: hidden}
+.navbar .container {overflow: initial}
+/*End Re-editing Some Settings for customizing the Responsive with the AOS Library (fade-right & fade-left effects)*/
+
+/*Start Tabs and Contents Part*/
+.tabs-and-contents .tabs {
+    list-style: none;
+    text-align: left;
+    margin-left: -30px
+}
+
+.tabs-and-contents .tabs .tab {
+    display: inline-block;
+    border-radius: 8px 8px 0 0;
+    border-bottom-width: 0px;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    top: 9px;
+    user-select: none
+}
+
+.tabs-and-contents .contents > div:not(:first-child) {display: none}
+
+.tabs-and-contents .contents .content .img {height: 150px}
+
+.tabs-and-contents .contents .content .img  img {width: 100%; height: 100%}
+
+.tabs-and-contents .contents .content .price h5 {display: inline-block}
+/*End Tabs and Contents Part*/
+
+/*Start Domain Checker Part*/
+/*Start Re-edit the Slick Slider*/
+.domain-checker .domains-carousel .slick-slide {height: 60px!important; border: none; transform: scale(.5)}
+
+.domain-checker .domains-carousel .slick-slide img {height: 60px}
+/*End Re-edit the Slick Slider*/
+/*End Domain Checker Part*/
+
+/*Start Tips Part*/
+.tips .controls i {position: absolute; top: 50%; z-index: 2}
+
+.tips .controls i.fa-chevron-left {left: 25px}
+
+.tips .controls i.fa-chevron-right {right: 25px}
+/*End Tips Part*/
+
+/*Start Hosting Services*/
+.hosting-services .thumbnail,
+.hosting-services .thumbnail .price {overflow: hidden}
+
+.hosting-services .thumbnail h3,
+.hosting-services .thumbnail span,
+.hosting-services .thumbnail .price {padding: 8px 8px 0 8px}
+
+.hosting-services .thumbnail > span {display: inline-block}
+
+.hosting-services .thumbnail .price span {line-height: 50px}
+
+.hosting-services .thumbnail .price button {float: right; margin-top: 4px}
+/*End Hosting Services*/

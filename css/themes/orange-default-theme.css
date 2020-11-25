@@ -1,0 +1,27 @@
+/*
+* Default Theme Color >> Orange
+* orange-first-color: #ff8b38
+* orange-second-color: #e9c46a
+*/
+
+/*Start FastHelpers Themes Classes (FHTC)*/
+.theme-color {color: #ff8b38}
+
+.theme-bg {background: linear-gradient(to left, #ff8b38 0%, #e9c46a 100%)}
+
+.theme-bg-hvr:hover {background: linear-gradient(to top, #ff8b38 0%, #e9c46a 100%)}
+
+.theme-color-hvr:hover {color: #ff8b38}
+
+.theme-border {border: 1px solid #ff8b38}
+
+.theme-text-shw {text-shadow:0 0 20px rgba(233,196,106, 0.6)}
+
+.theme-box-shw {box-shadow: 0px 2px 10px 0px #ff8b38}
+
+.theme-box-shw-hvr:hover {box-shadow: 0 0 3px 2px rgb(255, 139, 56, .8)}
+
+.before-bg:before {background: linear-gradient(to top,#ff8b38 0%, #e9c46a 100%)}
+
+.before-bg:hover::before {background: linear-gradient(to top,#ff8b38 0%, #e9c46a 100%)}
+/*End FastHelpers Themes Classes (FHTC)*/

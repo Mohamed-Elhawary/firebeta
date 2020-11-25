@@ -1,0 +1,53 @@
+/*Start Re-editing Some Settings for customizing the Responsive with the AOS Library (fade-right & fade-left effects)*/
+body {overflow-x: hidden}
+.container {overflow-x: hidden}
+.navbar .container, .prices .container {overflow-x: initial}
+.add-information .container {overflow-y: hidden}
+/*End Re-editing Some Settings for customizing the Responsive with the AOS Library (fade-right & fade-left effects)*/
+
+/*Start Prices Part*/
+.prices .products-cells {height: 80px; bottom: 40px}
+
+.prices .products-cells .cells {display: flex; justify-content: space-between}
+
+.prices .products-cells .cells .cell {line-height: 80px; font-size: 16px}
+
+.prices .products-cells .cells .cell a {text-decoration: none; opacity: .8}
+
+.prices .products-cells .cells .cell a:hover,
+.prices .products-cells .cells .cell a.active {border-bottom: 1px solid #ddd}
+
+.prices .products {bottom: 10px}
+
+.prices .products .product:not(.popular) {display: none}
+
+.prices .plans-table .table-header .features-head {padding-bottom: 53px}
+
+.prices .plans-table .table-header .features-head h4 {margin: 0; top: 10px}
+
+.prices .plans-table .table-header .plan-name span.controls i {position: absolute; top: 10px}
+
+.prices .plans-table .table-header .plan-name span.controls i.fa-chevron-left {left: 1px}
+
+.prices .plans-table .table-header .plan-name span.controls i.fa-chevron-right {right: 1px}
+
+.prices .plans-table .table-header .plan-name span.price {
+    padding: 3px 8px; 
+    display: inline-block; 
+    border-radius: 5px;
+    margin-bottom: 5px
+}
+
+.prices .plans-table .table-header .features-head,
+.prices .plans-table .table-header .plan-name,
+.prices .plans-table .table-content .plan-option:not(:last-of-type) {border-bottom: 1px solid #ddd}
+
+.prices .plans-table .table-content .plan-features .feature,
+.prices .plans-table .table-content .plan-option {font-size: 16px; padding-bottom: 15px}
+
+.prices .plans-table .table-content .plan-features .feature i {margin-left: 5px}
+
+.prices .plans-table .table-content .plan-option i.fa-check {color:#006d77}
+
+.prices .plans-table .table-content .plan-option i.fa-times {color:#d00000}
+/*End Prices Part*/
