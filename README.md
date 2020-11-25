@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/dcfe6b4a-290c-4d84-8852-ad718e996538/deploy-status)](https://app.netlify.com/sites/firebeta/deploys)
 
-Full Responsive Multi Pages Hosting Website, up to +16 Internal Pages
+Full Responsive Multi Pages Hosting Website, up to +16 Internal Pages, with 3 different Themes and Dark Mode.
 
 ![image](https://user-images.githubusercontent.com/69651552/100253324-a1498480-2f49-11eb-8905-5f830c95f74a.png)  
 
@@ -59,7 +59,7 @@ Just Modern Browser like "Chrome" and a Code Editor for Deployment and Develop.
 
 * Responsive Template Bootstrap v3
 * Based on the Material Design Rules
-* One Page Home & +16 Multi Internal Pages
+* One Home Page & +16 Internal Pages
     - Domains
     - Prices
     - Blogs
