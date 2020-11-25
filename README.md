@@ -33,6 +33,8 @@ Just Modern Browser like "Chrome" and a Code Editor for Deployment and Develop.
 
 * [AOS](https://michalsnik.github.io/aos/)
 
+* [Date-fns](https://date-fns.org/)
+
 * [Hover.css](https://ianlunn.github.io/Hover/)
 
 * [Font Awesome](https://fontawesome.com/)  
