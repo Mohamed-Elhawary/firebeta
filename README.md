@@ -4,6 +4,8 @@
 
 Firebeta is a multi-pages hosting website, up to +16 internal pages, with 3 different themes and dark mode.
 
+You can view the website from [here](https://firebeta.netlify.app/)
+
 ![image](https://user-images.githubusercontent.com/69651552/100253324-a1498480-2f49-11eb-8905-5f830c95f74a.png)  
 
 ![image](https://user-images.githubusercontent.com/69651552/100253394-b9210880-2f49-11eb-8c27-a86fb12dccca.png)
@@ -14,45 +16,29 @@ Firebeta is a multi-pages hosting website, up to +16 internal pages, with 3 diff
 
 ![image](https://user-images.githubusercontent.com/69651552/100253469-d48c1380-2f49-11eb-8798-811a176e80d1.png) 
 
-## Getting Started
-
-You can try the Website from [here](https://firebeta.netlify.app/)
-
-## Prerequisites
-
-Just Modern Browser like "Chrome" and a Code Editor for Deployment and Develop.  
-
 ## Built With
 
 * HTML5
 * CSS3
-* Javascript 
+* JS 
 
 ## Libraries  
 * [jQuery](https://jquery.com/)
-
 * [AOS](https://michalsnik.github.io/aos/)
-
 * [Date-fns](https://date-fns.org/)
-
 * [Hover.css](https://ianlunn.github.io/Hover/)
-
 * [Font Awesome](https://fontawesome.com/)  
   
 ## Frameworks 
 
 * [Bootstrap 4](https://getbootstrap.com/)
-
 * [FastHelpers Framework [FHF]](https://github.com/Mohamed-Elhawary/fasthelpers-framework-fhf)
 
 ## Plugins 
 
 * [Nice Scroll](https://nicescroll.areaaperta.com/)
-
 * [BX Slider](https://bxslider.com/)
-
 * [Slick Slider](https://kenwheeler.github.io/slick/)
-
 * [Tooltip](https://getbootstrap.com/docs/4.0/components/tooltips/)
 
 ## Features  
@@ -99,32 +85,20 @@ Just Modern Browser like "Chrome" and a Code Editor for Deployment and Develop.
 ## Themes
 
 * Orange [FirstColor: #ff8b38, SecondColor: #e9c46a]
-
 * Green  [FirstColor: #33a8c7, SecondColor: #2cd63c]
-
 * Purple [FirstColor: #9336fd, SecondColor: #d289ff] 
-
-## Google Fonts  
-
-* [Cairo](https://fonts.google.com/specimen/Cairo) 
 
 ## Author
 
-* Mohamed Elhawary  
+* [Mohamed Elhawary](https://www.linkedin.com/in/mohamed-elhawary14/)
 
-## Contact Me by my Social Accounts
+## Contact me through my social accounts
 
-* Email: mohamed.k.elhawary@gmail.com  
-
-* [Linkedin](https://www.linkedin.com/in/mohamed-elhawary14/)
-
-* [Codepen](https://codepen.io/Mohamed-ElHawary)
-
+* Email: mohamed.k.elhawary@gmail.com
+* [LinkedIn](https://www.linkedin.com/in/mohamed-elhawary14/)
+* [Github](https://github.com/Mohamed-Elhawary)  
 * [Behance](https://www.behance.net/mohamed-elhawary14)
-
-## Deploy with Me
-
-Feel Free to Deploy it with me, send Issues or a Pull Request and i'll deal with you, just test it First.
+* [Codepen](https://codepen.io/Mohamed-ElHawary) 
 
 ## License
 
