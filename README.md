@@ -84,9 +84,9 @@ You can view the website from [here](https://firebeta.netlify.app/)
 
 ## Themes
 
-* Orange [FirstColor: ![#ff8b38](https://placehold.co/15x15/ff8b38/ff8b38.png) `#ff8b38`, SecondColor: ![#e9c46a](https://placehold.co/15x15/e9c46a/e9c46a.png) `#e9c46a`]
-* Green  [FirstColor: ![#33a8c7](https://placehold.co/15x15/33a8c7/33a8c7.png) `#33a8c7`, SecondColor: ![#2cd63c](https://placehold.co/15x15/2cd63c/2cd63c.png) `#2cd63c`]
-* Purple [FirstColor: ![#9336fd](https://placehold.co/15x15/9336fd/9336fd.png) `#9336fd`, SecondColor: ![#d289ff](https://placehold.co/15x15/d289ff/d289ff.png) `#d289ff`] 
+* Orange [Color#1: ![#ff8b38](https://placehold.co/10x10/ff8b38/ff8b38.png) `#ff8b38`, Color#2: ![#e9c46a](https://placehold.co/10x10/e9c46a/e9c46a.png) `#e9c46a`]
+* Green  [Color#1: ![#33a8c7](https://placehold.co/10x10/33a8c7/33a8c7.png) `#33a8c7`, Color#2: ![#2cd63c](https://placehold.co/10x10/2cd63c/2cd63c.png) `#2cd63c`]
+* Purple [Color#1: ![#9336fd](https://placehold.co/10x10/9336fd/9336fd.png) `#9336fd`, Color#2: ![#d289ff](https://placehold.co/10x10/d289ff/d289ff.png) `#d289ff`] 
 
 ## Author
 
