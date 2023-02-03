@@ -23,12 +23,13 @@ You can view the website from [here](https://firebeta.netlify.app/)
 * JS 
 
 ## Libraries  
+
 * [jQuery](https://jquery.com/)
 * [AOS](https://michalsnik.github.io/aos/)
-* [Date-fns](https://date-fns.org/)
+* [Date Fns](https://date-fns.org/)
 * [Hover.css](https://ianlunn.github.io/Hover/)
 * [Font Awesome](https://fontawesome.com/)  
-  
+
 ## Frameworks 
 
 * [Bootstrap 4](https://getbootstrap.com/)
