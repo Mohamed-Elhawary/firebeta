@@ -12,14 +12,14 @@ You can view the website from [here](https://firebeta.netlify.app/)
  
 ## Demo
  
-![813adf5b14fcf0d179c51749b64be1867296dbe3](https://user-images.githubusercontent.com/69651552/100184979-5f89f100-2eeb-11eb-8843-c40bee05965a.gif)  
+![Demo](https://user-images.githubusercontent.com/69651552/100184979-5f89f100-2eeb-11eb-8843-c40bee05965a.gif)  
 
 ![image](https://user-images.githubusercontent.com/69651552/100253469-d48c1380-2f49-11eb-8798-811a176e80d1.png) 
 
-## Built With
+## Built with
 
-* HTML5
-* CSS3
+* HTML
+* CSS
 * JS 
 
 ## Libraries  
@@ -27,12 +27,12 @@ You can view the website from [here](https://firebeta.netlify.app/)
 * [jQuery](https://jquery.com/)
 * [AOS](https://michalsnik.github.io/aos/)
 * [Date Fns](https://date-fns.org/)
-* [Hover.css](https://ianlunn.github.io/Hover/)
+* [Hover](https://ianlunn.github.io/Hover/)
 * [Font Awesome](https://fontawesome.com/)  
 
 ## Frameworks 
 
-* [Bootstrap 4](https://getbootstrap.com/)
+* [Bootstrap](https://getbootstrap.com/)
 * [FastHelpers Framework [FHF]](https://github.com/Mohamed-Elhawary/fasthelpers-framework-fhf)
 
 ## Plugins 
@@ -96,7 +96,7 @@ You can view the website from [here](https://firebeta.netlify.app/)
 ## Contact me through my social accounts
 
 * Email: mohamed.k.elhawary@gmail.com
-* [LinkedIn](https://www.linkedin.com/in/mohamed-elhawary14/)
+* [Linkedin](https://www.linkedin.com/in/mohamed-elhawary14/)
 * [Github](https://github.com/Mohamed-Elhawary)  
 * [Behance](https://www.behance.net/mohamed-elhawary14)
 * [Codepen](https://codepen.io/Mohamed-ElHawary) 
